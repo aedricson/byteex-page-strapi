@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "byteex_users",
+  "info": {
+    "singularName": "byteex-user",
+    "pluralName": "byteex-users",
+    "displayName": "byteex-users",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    }
+  }
+}
